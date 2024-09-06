@@ -1,0 +1,152 @@
+/* Change background color, border, and text color of the button */
+body{
+    background-color: rgb(226, 228, 248);
+}
+
+
+.nav-link {
+    color: #3498db; /* Change this to your desired color */
+    text-decoration: none; /* Remove underline if you want */
+    font-family: "sacramento", cursive;
+    font-size: 1.5rem;
+  }
+
+.btn-primary {
+    background-color: burlywood; /* Change to your desired color */
+    border-color: burlywood;      /* Match the background color for consistency */
+    color: white;               /* Text color */
+  }
+  
+  /* Optionally, change the color when hovering over the button */
+  .btn-primary:hover {
+    background-color: rgb(171, 139, 99); /* A slightly darker shade for hover */
+    border-color: rgb(171, 139, 99);
+  }
+
+  .mountain {
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  /* Optionally, remove any margin/padding in the body to avoid gaps */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .centered-text {
+    position: absolute;
+    top: 35rem;        /* Move down to the center vertically */
+    left: 50%;       /* Move to the center horizontally */
+    transform: translate(-50%, -50%); /* Center the text exactly */
+    color: rgb(243, 232, 232);    /* Text color */
+    text-align: center;
+   
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Adds shadow to make the text stand out */
+  
+    font-family: fantasy;
+    font-size: 100rem; /* Adjust size to fit your design */
+  }
+
+  .btn2{
+    background-color: plum;
+    border-radius: 30px;
+    box-shadow: 2px 2px rgb(236, 134, 207);
+    border: 3px solid rgb(236, 134, 207);
+    color: white;
+    
+}
+.btn2:hover{
+    transform: translate(-4px,-4px);
+    box-shadow: 6px 6px rgb(131, 3, 131);
+    background-color: pink;
+    border:3px solid rgb(141, 51, 66);
+    color: rgb(141, 51, 66);
+}
+
+.primary-button{
+    background-color: #ff8400;
+    border-radius: 30px;
+    box-shadow: 2px 2px;
+    border: 3px solid;
+    color: black;
+}
+
+.primary-button:hover{
+    transform: translate(-4px,-4px);
+    box-shadow: 6px 6px #000000;
+    background-color: #FFD93D;
+    border:3px solid;
+}
+
+.phone1{
+    height: 50vh;
+    width: 100vh;
+    object-fit:scale-down;
+}
+
+
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:rgb(236, 134, 207);
+    border-radius: 30px;
+    box-shadow: 3px 3px rgb(131, 3, 131);
+    border: 3px solid rgb(131, 3, 131);
+    color: white;
+    padding: 6px;
+    transition: all ease-in-out 800ms;
+    transform: translate(-4px,-4px);
+    
+
+}
+input[type=submit]:hover {
+    color: #000000;
+    padding: 6px;
+    box-shadow: 6px 6px #000000;
+    background-color: #FFD93D;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+  
+.contcontainer {
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    padding: 20px;
+  }
+
+
+input[type=text]:active, select:active, textarea:active {
+    transform: translate(-4px,-4px);
+    color: #000000;
+    border:3px solid black;
+    
+}
+
+
+
+
+input[type=text], select, textarea {
+    color: #000000;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 3px solid black; /* Gray border */
+    border-radius: .75rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    box-shadow: 3px 3px ;  
+    outline: none;
+}
+  
+
+
+
+
