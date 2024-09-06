@@ -17,7 +17,7 @@ body{
     color: white;               /* Text color */
   }
   
-  /* Optionally, change the color when hovering over the button */
+  /* change the color when hovering over the button */
   .btn-primary:hover {
     background-color: rgb(171, 139, 99); /* A slightly darker shade for hover */
     border-color: rgb(171, 139, 99);
@@ -68,17 +68,17 @@ body{
 }
 
 .primary-button{
-    background-color: #ff8400;
+    background-color:  rgb(236, 134, 207);
     border-radius: 30px;
     box-shadow: 2px 2px;
     border: 3px solid;
-    color: black;
+    color: rgb(131, 3, 131);
 }
 
 .primary-button:hover{
     transform: translate(-4px,-4px);
-    box-shadow: 6px 6px #000000;
-    background-color: #FFD93D;
+    box-shadow: 6px 6px rgb(131, 3, 131);
+    background-color: pink;
     border:3px solid;
 }
 
@@ -104,11 +104,11 @@ body{
 
 }
 input[type=submit]:hover {
-    color: #000000;
+    color: rgb(131, 3, 131);
     padding: 6px;
-    box-shadow: 6px 6px #000000;
-    background-color: #FFD93D;
-    border: 3px solid black;
+    box-shadow: 6px 6pxrgb(131, 3, 131);
+    background-color: rgb(237, 187, 223);
+    border: 3px solid rgb(131, 3, 131);
     border-radius: 30px;
 }
   
@@ -146,7 +146,5 @@ input[type=text], select, textarea {
     outline: none;
 }
   
-
-
 
 
